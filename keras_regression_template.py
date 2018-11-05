@@ -13,7 +13,7 @@ test_scaled_path = "sales_data_test_scaled.csv"
 train_data = pd.read_csv(train_path)
 test_data = pd.read_csv(test_path)
 
-# Scaler the data
+# Scale the data
 scaler_x = StandardScaler()
 scaler_y = StandardScaler()
 scaled_training = scaler_x.fit_transform(train_data)
