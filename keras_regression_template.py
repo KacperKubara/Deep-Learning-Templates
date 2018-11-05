@@ -1,3 +1,10 @@
+"""
+Following script takes the data from two CSV files
+It preprocesses the data and then saves it in another CSV files
+Then the data is split into training and test datasets
+Keras model is created and the mean_squared error between
+ Y_test and Y_pred is obtained to measure the model's accuracy
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 from keras.models import Sequential
