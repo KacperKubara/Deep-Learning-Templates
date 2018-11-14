@@ -1,3 +1,8 @@
+"""
+Template for image recognition using the ResNet 50 model
+Add the images to the working directory and set the path variable
+Output is a list of labels with a probability for each image
+"""
 import numpy as np
 import os.path
 from keras.preprocessing import image
