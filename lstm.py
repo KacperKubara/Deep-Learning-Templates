@@ -50,7 +50,7 @@ Y_test = data_test[['total_earnings']].values
 # Keras Model
 model = Sequential()
 model.add(Dense(50, input_dim = 9, activation = 'relu'))
-model.add(Dense(100, activation = 'relu'))
+model.add(Dense(200, activation = 'relu'))
 model.add(Dense(50, activation = 'relu'))
 model.add(Dense(1, activation = 'linear'))
 model.compile(optimizer = 'adam', loss = 'mean_squared_error', metrics = ['mse'])
